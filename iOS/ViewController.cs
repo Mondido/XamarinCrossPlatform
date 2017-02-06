@@ -29,15 +29,7 @@ namespace Demo.iOS
 				Button.SetTitle(title, UIControlState.Normal);
 			};
 
-			var ex = new Example();
-			var t = ex.CreateAPICardPayment(); 
-			var t2 = ex.CapturePayment();
-			var t3 = ex.CreateHostedCardPaymentUrl();
 
-			var sc1 = ex.CreateStoreCard();
-			var sc2 = ex.UpdateStoredCard();
-
-			var transactions = ex.ListTransactions();
 
 		}
 

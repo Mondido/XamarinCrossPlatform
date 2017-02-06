@@ -44,11 +44,9 @@
     <Compile Include="Mondido\Payment\Item.cs" />
     <Compile Include="Mondido\Payment\Items.cs" />
     <Compile Include="Mondido\Request\HttpParams.cs" />
-    <Compile Include="Examples\Example.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Mondido\" />
-    <Folder Include="Examples\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

@@ -32,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Test.cs" />
+    <Compile Include="Examples\Example.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -41,6 +42,9 @@
       <Project>{D5AB1E5A-70AD-409C-AA32-76A85A3FD8B6}</Project>
       <Name>MondidoCrossPlatformSDK</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Examples\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
